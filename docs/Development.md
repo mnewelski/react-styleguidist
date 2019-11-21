@@ -105,7 +105,7 @@ function ExamplePlaceholderRenderer({ classes }) {
 export default Styled(styles)(ExamplePlaceholderRenderer)
 ```
 
-Check available theme variables in [src/client/styles/theme.js](https://github.com/styleguidist/react-styleguidist/blob/master/src/client/styles/theme.js).
+Check available theme variables in [src/client/styles/theme.ts](https://github.com/styleguidist/react-styleguidist/blob/master/src/client/styles/theme.ts).
 
 Because of isolation and theming you need to explicitly declare `fontFamily`, `fontSize` and `color`. Add `isolate: false` to your hover styles, otherwise you’ll have to repeat base non-hover styles.
 
